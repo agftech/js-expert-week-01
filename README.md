@@ -27,23 +27,48 @@
   <a href="#base-project"><img src="https://img.shields.io/badge/Base Project-eb0000?style=for-the-badge"/></a>&nbsp;&nbsp;
   <a href="#title-list"><img src="https://img.shields.io/badge/Title List-eb0000?style=for-the-badge"/></a>&nbsp;&nbsp;
   <a href="#video"><img src="https://img.shields.io/badge/Video-eb0000?style=for-the-badge"/></a>&nbsp;&nbsp;
-  <a href="#credit"><img src="https://img.shields.io/badge/Credits-eb0000?style=for-the-badge"/></a>
+  <a href="#credits"><img src="https://img.shields.io/badge/Credits-eb0000?style=for-the-badge"/></a>
+   <a href="#license"><img src="https://img.shields.io/badge/License-eb0000?style=for-the-badge"/></a>
 </p>
 
+> ---
 > ## _**Base Project**_:
 >
 > - Access the [index](./public/index/index.html) to view a list of titles
 > - Access [bandersnatch](./public/bandersnatch/index.html) to access the base title of the project
 >
+> ---
+
+> ---
 > ## _**Title List**_: 
 >
 > ![titulos](./prints/titulos.png)
 >
-> ## _**Vídeo**_:
+> ---
+
+> ---
+> ## _**Video**_:
 >
 > ![titulos](./prints/demo.png)
 > 
+> ---
+
+> ---
 > ## _**Credits**_:
 > 
 > - List layout was based on the codepen of the [Carlos Avila](https://codepen.io/cb2307/pen/XYxyeY)
 > - Video layout was based on the codepen of the [Benjamin Pott](https://codepen.io/benjipott/pen/JELELN)
+>
+> ---
+
+> ---
+>
+> ## _**License**_:
+>
+> *This project is under MIT. See at here [![License: MIT](https://img.shields.io/badge/License-MIT-eb0000.svg)](https://opensource.org/licenses/MIT)  for more informations.*
+>
+> ---
+
+<a href="https://github.com/agftech" target="_blank">
+    <img alt="Made with ♥ by AGFTECH's" src="https://img.shields.io/badge/Made with ♥ by -AGFTECH's-eb0000">
+</a>
