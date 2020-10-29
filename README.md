@@ -1,3 +1,7 @@
+<h1 align="center">
+<img alt="My NetFlix" title="My NetFlix" src="https://github.com/agftech/js-expert-week-01/blob/main/.github/custom-jsex-my-netflix.svg" width="625px" />
+</h1>
+
 <h2 align="center">
 <img src="https://img.shields.io/badge/Project developed during the -JS EXPERT WEEK 01 by 🚀 ErickWendel-E40E20?style=for-the-badge"/>
 </h2>
