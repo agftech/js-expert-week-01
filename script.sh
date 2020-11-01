@@ -7,4 +7,6 @@ for mediaFile in `ls $ASSETSFOLDER | grep .mp4`; do
   FOLDER_TARGET=$ASSETSFOLDER/$FILENAME
   mkdir -p $FOLDER_TARGET
 
+  source ./output-resolution.sh
+
 done
