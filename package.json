@@ -1,0 +1,24 @@
+{
+	"name": "js-expert-week-01",
+	"version": "1.0.0",
+	"description": "<h1 align=\"center\">\r <img alt=\"My NetFlix\" title=\"My NetFlix\" src=\"https://github.com/agftech/js-expert-week-01/blob/main/.github/custom-jsex-my-netflix.svg\" width=\"625px\" />\r </h1>",
+	"main": "index.js",
+	"scripts": {
+		"assets": "npx http-server --cors -p 8081 assets/",
+		"dev": "npx http-server --cors -p 8080 public/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/agftech/week-js-expert-01.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/agftech/week-js-expert-01/issues"
+	},
+	"homepage": "https://github.com/agftech/week-js-expert-01#readme",
+	"devDependencies": {
+		"http-server": "^0.12.3"
+	}
+}
