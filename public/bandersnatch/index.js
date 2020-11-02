@@ -6,14 +6,9 @@ async function main() {
 	const manifestJSON = await (await fetch(MANIFEST_URL)).json();
 	const host = isLocal ? manifestJSON.localHost : manifestJSON.productionHost;
 
-	const player = videojs("vid");
-	const ModalDialog = videojs.getComponent("ModalDialog");
-	const modal = new ModalDialog(player, {
-		temporary: false,
-		closeable: true,
-	});
+	const videoComponent = new VideoComponent();
 
-	player.addChild(modal);
+	videoComponent.initializePlayer();
 }
 
 window.onload = main;
