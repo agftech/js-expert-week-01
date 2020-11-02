@@ -1,13 +1,19 @@
+const MANIFEST_URL = "manifest.json";
+const localHost = ["127.0.0.1", "localhost"];
+
 async function main() {
-    const player = videojs('vid');
-    const ModalDialog = videojs.getComponent('ModalDialog');
-    const modal = new ModalDialog(player, {
-        temporary: false, 
-        closeable: true
-    });
+	const isLocal = !!~localHost.indexOf(window.location.hostname);
+	const manifestJSON = await (await fetch(MANIFEST_URL)).json();
+	const host = isLocal ? manifestJSON.localHost : manifestJSON.productionHost;
 
-    player.addChild(modal);
+	const player = videojs("vid");
+	const ModalDialog = videojs.getComponent("ModalDialog");
+	const modal = new ModalDialog(player, {
+		temporary: false,
+		closeable: true,
+	});
 
+	player.addChild(modal);
 }
 
-window.onload = main
+window.onload = main;
