@@ -8,6 +8,14 @@ async function main() {
 
 	const videoComponent = new VideoComponent();
 
+	const network = new Network({ host });
+
+	const videoPlayer = new VideoMediaPlayer({
+		manifestJSON,
+		network,
+	});
+
+	videoPlayer.initializeCodec();
 	videoComponent.initializePlayer();
 }
 
