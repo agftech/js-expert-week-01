@@ -19,6 +19,6 @@
 	},
 	"homepage": "https://github.com/agftech/week-js-expert-01#readme",
 	"devDependencies": {
-		"http-server": "^0.12.3"
+		"http-server": "^14.1.1"
 	}
 }
